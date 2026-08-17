@@ -1,0 +1,37 @@
+{
+  "molecule": {
+    "charge": 0,
+    "multiplicity": 1,
+    "atoms": [
+      {
+        "symbol": "H",
+        "position": [0.0, 0.0, -0.7]
+      },
+      {
+        "symbol": "H",
+        "position": [0.0, 0.0, 0.7]
+      }
+    ]
+  },
+
+  "basis": {
+    "name": "sto-3g",
+    "elements": {
+      "H": [
+        {
+          "angular_momentum": 0,
+          "exponents": [
+            3.42525091,
+            0.62391373,
+            0.16885540
+          ],
+          "coefficients": [
+            0.15432897,
+            0.53532814,
+            0.44463454
+          ]
+        }
+      ]
+    }
+  }
+}
