@@ -143,7 +143,7 @@ class Molecule:
     """
 
     atoms: tuple[Atom, ...]
-    charge: int = 0 "use to compute the number of electron in ion"
+    charge: int = 0 #use to compute the number of electron in ion
     multiplicity: int = 1
 
     def __post_init__(self) -> None:
